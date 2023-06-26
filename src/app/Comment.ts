@@ -2,7 +2,7 @@ export interface Comment {
     id?: Number,
     text: String,
     username: String,
-    moments_id: Number,
+    momentId: number;
     created_at?: String,
     updated_at?: String
 }
