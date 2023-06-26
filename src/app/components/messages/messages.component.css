@@ -1,4 +1,5 @@
 .message {
+    transition: 1s;
     position: fixed;
     top: 3em;
     width: 50%;
@@ -25,4 +26,15 @@
 
 .message p {
     font-size: 1.2em;
+}
+
+.clear {
+    text-decoration: bold;
+    font-size: 15px;
+    border-radius: 10%;
+}
+
+.clear:hover {
+    background-color: #dc3545;
+    color: #fff;
 }
